@@ -257,9 +257,11 @@ Obtención del token de acceso:
 ### Sistema de Votación
 
 #### Registrar Voto
-![image5](https://github.com/user-attachments/assets/552ea099-5cf3-49b2-a756-2e07d21c9e87)
+
 
 #### Validación - Votante ya votó
+![image7](https://github.com/user-attachments/assets/bea92f0c-4e4d-4e0a-8dd7-bd12e43dd472)
+
 ![image6](https://github.com/user-attachments/assets/486b40ce-982b-41ba-a74b-e1aeded3be54)
 
 
