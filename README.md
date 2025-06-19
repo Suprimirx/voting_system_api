@@ -130,14 +130,14 @@ http://localhost:8000/api/
 ### Autenticación
 
 La API utiliza autenticación JWT. Primero debes obtener un token:
-Usuario y Contraseña del superusuario
+Usuario y Contraseña del superusuario creado previamente
 ```bash
 POST /api/token/
 Content-Type: application/json
 
 {
-    "username": "tu_usuario", # Usuario y Contraseña que se eligieron al crear el superusuario
-    "password": "tu_password"
+    "username": "superuser",
+    "password": "superuser_password"
 }
 ```
 
