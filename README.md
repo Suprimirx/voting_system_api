@@ -43,7 +43,7 @@ Una API RESTful desarrollada con Django REST Framework para gestionar un sistema
 - **Base de Datos**: PostgreSQL
 - **Autenticación**: JWT (Simple JWT)
 - **CORS**: django-cors-headers
-- **Python**: 3.x
+- **Python**: 3.11.3
 
 ## 📋 Prerrequisitos
 
