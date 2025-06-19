@@ -107,7 +107,11 @@ DATABASES = {
 
 ```bash
 # Aplicar migraciones
+python manage.py makemigrations
 python manage.py migrate
+
+# Crear superusuario 
+python manage.py createsuperuser
 ```
 
 ### 6. Ejecutar el Servidor de Desarrollo
@@ -238,6 +242,16 @@ Respuesta:
 ```
 
 ![image1](https://github.com/user-attachments/assets/7c61590e-dd27-4010-9d05-3e15c971f514)
+
+![image2](https://github.com/user-attachments/assets/b1c0b210-9897-4ede-8408-9015e6a4ce6c)
+
+![image3](https://github.com/user-attachments/assets/05981f76-f8c6-44c7-9bac-989e054bf2f2)
+
+![image4](https://github.com/user-attachments/assets/b8db3b23-3ad0-4b6d-b5cc-1e13b1ff5a52)
+
+![image5](https://github.com/user-attachments/assets/552ea099-5cf3-49b2-a756-2e07d21c9e87)
+
+![image6](https://github.com/user-attachments/assets/486b40ce-982b-41ba-a74b-e1aeded3be54)
 
 
 ## 🔒 Validaciones de Seguridad
