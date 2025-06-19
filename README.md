@@ -237,6 +237,9 @@ Respuesta:
 }
 ```
 
+![image1](https://github.com/user-attachments/assets/7c61590e-dd27-4010-9d05-3e15c971f514)
+
+
 ## 🔒 Validaciones de Seguridad
 
 - **Unicidad de Email**: Cada email solo puede estar asociado a un votante O un candidato
