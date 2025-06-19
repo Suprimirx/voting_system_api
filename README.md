@@ -59,7 +59,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 ### 1. Clonar el Repositorio
 
 ```bash
-git clone <url-del-repositorio>
+git clone <https://github.com/Suprimirx/voting_system_api.git>
 ```
 
 ### 2. Crear y Activar un Entorno Virtual
