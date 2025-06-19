@@ -4,6 +4,3 @@ my_env/
 # Archivos de configuración local
 *.pyc
 __pycache__/
-
-# Base de datos
-db.sqlite3
