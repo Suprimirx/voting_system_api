@@ -13,6 +13,7 @@ class Voter(models.Model):
     def __str__(self):
         return f"{self.name} ({self.email})"
 
+    # Función especifica para el panel de administración de Django
     def clean(self):
         # Verificar que el votante no sea también candidato
         if Candidate.objects.filter(email=self.email).exists():
@@ -30,6 +31,7 @@ class Candidate(models.Model):
     def __str__(self):
         return f"{self.name} - {self.party or 'Independiente'}"
 
+    # Función especifica para el panel de administración de Django
     def clean(self):
         # Verificar que el candidato no sea también votante
         if Voter.objects.filter(email=self.email).exists():
